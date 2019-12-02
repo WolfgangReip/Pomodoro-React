@@ -1,4 +1,6 @@
 import React from "react";
+import { FaArrowUp } from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa";
 
 function SessionLength(props) {
   function increaseSession() {
@@ -21,7 +23,7 @@ function SessionLength(props) {
           disabled={props.isPlay === true ? "disabled" : ""}
           onClick={decreaseSession}
         >
-          Down
+          <FaArrowDown className="icon" />
         </button>
 
         <p className="interval-length">{props.sessionLength}</p>
@@ -29,7 +31,7 @@ function SessionLength(props) {
           disabled={props.isPlay === true ? "disabled" : ""}
           onClick={increaseSession}
         >
-          Up
+          <FaArrowUp className="icon" />
         </button>
       </section>
     </section>

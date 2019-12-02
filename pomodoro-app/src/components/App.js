@@ -12,7 +12,8 @@ class App extends React.Component {
       breakLength: 5,
       sessionLength: 25,
       timerMinute: 25,
-      isPlay: false
+      isPlay: false,
+      sound: false
     };
 
     this.onIncreaseBreakLength = this.onIncreaseBreakLength.bind(this);
@@ -74,7 +75,8 @@ class App extends React.Component {
       });
     } else {
       this.setState({
-        timerMinute: this.state.breakLength
+        timerMinute: this.state.breakLength,
+        sound: true
       });
     }
   }
@@ -94,7 +96,7 @@ class App extends React.Component {
   render() {
     return (
       <main>
-        <h2>The Natural Pomodoro App</h2>
+        <h2>The FreeCodeCamp Pomodoro</h2>
         <section className="interval-lenght-container">
           <BreakInterval
             isPlay={this.state.isPlay}

@@ -1,4 +1,6 @@
 import React from "react";
+import { FaArrowUp } from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa";
 
 function BreakInterval(props) {
   function decreaseCounter() {
@@ -19,17 +21,19 @@ function BreakInterval(props) {
       <h4>Break Length</h4>
       <section className="interval-container">
         <button
+          className="button-break"
           disabled={props.isPlay === true ? "disabled" : ""}
           onClick={decreaseCounter}
         >
-          Down
+          <FaArrowDown className="icon" />
         </button>
         <p className="interval-length">{props.breakInterval}</p>
         <button
+          className="button-break"
           disabled={props.isPlay === true ? "disabled" : ""}
           onClick={increaseCounter}
         >
-          Up
+          <FaArrowUp className="icon" />
         </button>
       </section>
     </section>

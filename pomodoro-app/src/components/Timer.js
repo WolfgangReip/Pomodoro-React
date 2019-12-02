@@ -1,4 +1,7 @@
 import React from "react";
+import { FaPlay } from "react-icons/fa";
+import { FaStop } from "react-icons/fa";
+import { FaRedo } from "react-icons/fa";
 
 class Timer extends React.Component {
   constructor() {
@@ -90,9 +93,15 @@ class Timer extends React.Component {
           </span>
         </section>
         <section className="timer-actions">
-          <button onClick={this.playTimer}>Play</button>
-          <button onClick={this.stopTimer}>Stop</button>
-          <button onClick={this.resetTimer}>Reset</button>
+          <button className="button-timer" onClick={this.playTimer}>
+            <FaPlay className="icon-timer" />
+          </button>
+          <button className="button-timer" onClick={this.stopTimer}>
+            <FaStop className="icon-timer" />
+          </button>
+          <button className="button-timer" onClick={this.resetTimer}>
+            <FaRedo className="icon-timer" />
+          </button>
         </section>
       </section>
     );
