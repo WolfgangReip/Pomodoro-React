@@ -1,15 +1,15 @@
 # Log-Yourself-In
 
 * *Version*: 1.0.0
-* *Authors*: Surya Hendricks, Wolfgang Reip
+* *Author*: Wolfgang Reip
 
 Description
 ----
-User account creation and edition connected to a MySQL database. Complete form validation. 
+Pomodoro Timer 
 
 Technologies
 ----
-*PHP*, *Docker*, *MySQL*
+**, *Docker*, *MySQL*
 
 What can you do?
 ----
