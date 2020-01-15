@@ -5,7 +5,7 @@
 
 Description
 ----
-Pomodoro Timer 
+Pomodoro Timer with the style based on the freecodecamp learning platform
 
 Technologies
 ----
@@ -27,9 +27,10 @@ How to run
 ----
 
 * Clone the repo
-* At the root of the project folder : npm install
+* At the root of the project folder : **npm install** then **npm start**
+* navigate to http://localhost:3000/ 
 
 Screenshots
 ----
 
-
+![Screenshot from 2020-01-15 09-27-05](https://user-images.githubusercontent.com/54063166/72417571-7616d600-3779-11ea-899f-89d73c489abf.png)
