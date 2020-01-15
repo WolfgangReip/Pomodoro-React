@@ -9,7 +9,7 @@ Pomodoro Timer
 
 Technologies
 ----
-**, *Docker*, *MySQL*
+*React*, *HTML*, *CSS*
 
 What can you do?
 ----
