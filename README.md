@@ -22,7 +22,9 @@ What can you do?
 Project demo 
 ----
 
-[Link to the demo](https://sign-up-log-in.herokuapp.com/signup.php)
+https://freepomodoro.netlify.com/
 
 Screenshots
 ----
+
+
