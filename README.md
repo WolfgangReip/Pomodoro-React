@@ -1,4 +1,4 @@
-# Log-Yourself-In
+# Pomodoro
 
 * *Version*: 1.0.0
 * *Author*: Wolfgang Reip
